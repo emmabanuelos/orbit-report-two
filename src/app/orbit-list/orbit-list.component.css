@@ -4,7 +4,7 @@
 }
 
 .warning {
-    background-color: #f10606;
+   background-color: #ff0707;
 }
 
 table {
@@ -25,5 +25,5 @@ th, td {
     text-align: left;
     margin: 5px 10px;
     padding: 6px;
-    color: white;
+    color: black;
 }

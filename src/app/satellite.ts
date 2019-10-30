@@ -12,13 +12,22 @@ export class Satellite {
         this.type = type;
         this.launchDate = launchDate;
 
-
-
-
-        // name = this.satelliteName;
-        // orbitType = this.satelliteOrbitType;
-        // type = this.satelliteType;
-        // operational = this.satelliteOperational;
-        // launchDate = this.satelliteLaunchDate;
-    }
+    }        
+    
+    // shouldShowWarning() : boolean {
+    //     // let test = "Space Debris"
+    //     if (this.type.toLowerCase() == "space debris") {
+    //         return true;
+    //     } else {
+    //         return false;
+    //     }
+    // }    
+    
+    
+    
+    shouldShowWarning() : boolean {
+        return this.type.toLowerCase() === "space debris";
+    }    
+    
+    
 }
