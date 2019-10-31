@@ -27,3 +27,7 @@ th, td {
     padding: 6px;
     color: black;
 }
+
+.row-color {
+    color: teal;
+}
