@@ -29,5 +29,9 @@ th, td {
 }
 
 .row-color {
-    color: teal;
+    background-color: teal;
+}
+
+.table-rows {
+    background-color: teal;
 }
